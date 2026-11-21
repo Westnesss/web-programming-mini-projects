@@ -1,0 +1,27 @@
+# Runtime & Tooling
+node>=20.0.0
+npm>=10.0.0
+
+# 1. React Mini-Project (react/hello-react)
+react
+react-dom
+@vitejs/plugin-react
+vite
+tailwindcss
+@tailwindcss/vite
+axios
+react-hook-form
+formik
+zustand
+@tanstack/react-query
+react-router-dom
+
+# 2. Jamstack Mini-Project (jamstack_astro/hello-astro)
+astro
+
+# 3. GraphQL Mini-Project (graphql/hello-graphql)
+@apollo/server
+graphql
+
+# 4. WebSocket Mini-Project (websocket/hello-ws)
+ws

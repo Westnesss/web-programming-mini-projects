@@ -1,0 +1,12 @@
+---
+const res = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+const pokemon = await res.json();
+---
+<html lang="en">
+  <head>
+    <title>{pokemon.name}</title>
+  </head>
+  <body>
+    <h1>{pokemon.name}</h1>
+  </body>
+</html>

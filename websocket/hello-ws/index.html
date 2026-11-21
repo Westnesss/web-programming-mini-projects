@@ -1,0 +1,9 @@
+<input id="msg" placeholder="Type a message" />
+<button onclick="ws.send(document.getElementById('msg').value)">Send</button>
+<ul id="log"></ul>
+<script>
+    const ws = new WebSocket('ws://localhost:8080')
+    ws.onmessage = (e) => {
+        document.getElementById('log').innerHTML += `<li>${e.data}</li>`
+    }
+</script>
